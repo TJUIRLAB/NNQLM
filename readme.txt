@@ -11,9 +11,7 @@ End-to-End Quantum-like Language Models with Application to Question Answering. 
 - ConfigParser
 - cPickle
 - pandas
-- os
-- sys
-- time
+
 
 Python packages can be easily installed using the standard tool: pip install <package>
 
