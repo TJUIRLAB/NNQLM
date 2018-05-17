@@ -19,9 +19,11 @@ Python packages can be easily installed using the standard tool: pip install <pa
 
 You can run this model by:
 >$ python run.py
+
 This model is for trecqa and wikiqa. 
 The default is for trecqa, and if you want to run this model on wikiqa, you can:
 >$ python run.py wiki
+
 You can use other qa dataset. Please put your dataset on dir dataset, and preprocess your data according to trecqa.
 
 
