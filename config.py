@@ -80,10 +80,7 @@ if __name__ == '__main__':
 	cf.set(secwiki, 'filter_row', '40')
 	cf.set(secwiki, 'filter_num', '150')
 	cf.set(secwiki, 'reg_rate', '0.01')
-	cf.set(sectrec, 'itera_number', '25')
-
-
-
+	cf.set(secwiki, 'itera_number', '25')
 
 	secrunarg = crous
 	cf.add_section(secrunarg)
@@ -93,8 +90,6 @@ if __name__ == '__main__':
 	cf.set(secrunarg, 'filter_num', cf.get(secrunarg + '_arg', 'filter_num'))
 	cf.set(secrunarg, 'reg_rate', cf.get(secrunarg + '_arg', 'reg_rate'))
 	cf.set(secrunarg, 'itera_number', cf.get(secrunarg + '_arg', 'itera_number'))
-
-
 
 	cf.write(open('config.conf', 'w'))
 	print crous
