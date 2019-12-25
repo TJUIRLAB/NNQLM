@@ -1,0 +1,6 @@
+interdata/
+config.conf
+*.pyc
+.DS_Store
+embeddings/
+log/
